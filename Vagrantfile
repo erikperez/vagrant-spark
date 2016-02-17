@@ -17,7 +17,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.provider :virtualbox do |vb|
     vb.name = "Vagrant Spark Standalone VM"
-    vb.customize ["modifyvm", :id, "--cpus", "2", "--memory", "2048"]
+    vb.customize ["modifyvm", :id, "--cpus", "2", "--memory", "4096"]
   end
 
   config.vm.provision :shell,
