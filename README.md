@@ -1,18 +1,26 @@
 # vagrant-spark
 
+## Prerequisites
+
+* [Oracle VirtualBox](https://www.virtualbox.org)
+* [Vagrant](https://vagrantup.com)
+
 ##Installation
 
-Open console and type ```vagrant up```
-
-Downloads Spark 1.6.0 and builds it (and downloads dependencies as well..)
-However, because it builds Spark it takes a while. 
-So maybe we should change the template to download ```prebuilt  hadoop 2.6``` instead.
+* Open console and type ```vagrant up```
 
 
-Further descriptions will come.
+### What you get
+1. ```Ubuntu 14.04 Lts```
+2. ```Git```
+3. ```Oracle Java 8```
+4. ```Scala 2.11.7```
+5. ```Spark 1.6.0 for Hadoop 2.6 (prebuilt)```
+
+More info will come.
 
 
-#### Note
+#### Copyright info
 Copyright 2016 Erik Andreassen Perez
 
 Licensed under the Apache License, Version 2.0 (the "License");
