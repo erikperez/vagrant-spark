@@ -4,12 +4,15 @@
 
 Open console and type ```vagrant up```
 
+Downloads Spark 1.6.0 and builds it (and downloads dependencies as well..)
+However, because it builds Spark it takes a while. 
+So maybe we should change the template to download ```prebuilt  hadoop 2.6``` instead.
+
+
 Further descriptions will come.
 
 
-
-
-
+#### Note
 Copyright 2016 Erik Andreassen Perez
 
 Licensed under the Apache License, Version 2.0 (the "License");
